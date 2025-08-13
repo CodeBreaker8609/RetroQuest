@@ -18,7 +18,7 @@ Accessibility features with ARIA labels and keyboard navigation
 Neon RGB glowing text and animated badges for a cool retro feel
 
 Demo
-Check out a live demo here (add your hosted URL once live)
+Check out a live demo here (https://codebreaker8609.github.io/RetroQuest/)
 
 Installation & Usage
 Clone the repository:
