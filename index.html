@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>RetroQuest - Gamer's Progress Tracker</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header class="hero">
+        <div class="hero-content">
+            <h1>🎮 RetroQuest</h1>
+            <p id="player-stats">
+                XP: <span id="xp">0</span> | Level: <span id="level">1</span> |
+                Badges: <span id="badge-count">0</span>
+            </p>
+            <button id="openModalBtn" class="btn add-btn" aria-label="Add a new game">+ Add Game</button>
+        </div>
+    </header>
+
+    <main>
+        <!-- Home Page -->
+        <section id="home-page" aria-label="Home Page">
+            <aside class="sidebar" aria-label="Player statistics and badges">
+                <section>
+                    <h2>Quick Stats</h2>
+                    <ul class="stat-list">
+                        <li>Total Games: <span id="total-games">0</span></li>
+                        <li>Completed: <span id="completed-games">0</span></li>
+                        <li>Hours Played: <span id="total-hours">0</span></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>Badges</h2>
+                    <div class="badge-display" aria-label="Earned badges">
+                        <span>🏆</span> <span>🎯</span> <span>🔥</span>
+                        <!-- Special badge will appear here -->
+                        <span id="special-badge" class="special-badge" style="display:none;"
+                            aria-label="Elite Gamer badge">⭐ Elite Gamer</span>
+                    </div>
+                    </div>
+                </section>
+            </aside>
+
+            <section aria-labelledby="games-heading">
+                <h2 id="games-heading">My Games</h2>
+                <ul id="game-list" class="game-grid" aria-live="polite" aria-relevant="additions">
+                    <!-- Games inserted here dynamically -->
+                </ul>
+            </section>
+
+            <!-- Add Game Modal -->
+            <div id="addGameModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"
+                aria-hidden="true">
+                <div class="modal-content">
+                    <button class="close-btn" aria-label="Close add game form">&times;</button>
+                    <h2 id="modalTitle">Add a New Game</h2>
+                    <form id="addGameForm">
+                        <label for="gameTitle">Game Title:</label>
+                        <input type="text" id="gameTitle" name="gameTitle" placeholder="Enter game name" required />
+
+                        <label for="gameImage">Image URL:</label>
+                        <input type="url" id="gameImage" name="gameImage" placeholder="https://example.com/game.jpg"
+                            required />
+
+                        <label for="gameLink">Game Link:</label>
+                        <input type="url" id="gameLink" name="gameLink" placeholder="https://example.com" required />
+
+                        <button type="submit" class="btn">Add Game</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Page -->
+        <section id="stats-page" aria-label="Stats Page" hidden>
+            <h2>Stats Overview</h2>
+            <div id="detailed-stats" tabindex="0">
+                <!-- Detailed stats rendered here -->
+            </div>
+        </section>
+
+        <!-- Profile Page -->
+        <section id="profile-page" aria-label="Profile Page" hidden>
+            <h2>User Profile</h2>
+            <form id="profile-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Your gamer tag" />
+
+                <label for="favorite-genre">Favorite Game Genre:</label>
+                <input type="text" id="favorite-genre" name="favorite-genre" placeholder="E.g., RPG, FPS" />
+
+                <button type="submit" class="btn">Save Profile</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <nav aria-label="Main Navigation">
+            <ul class="footer-nav">
+                <li><a href="#" aria-current="page">Home</a></li>
+                <li><a href="#">Stats</a></li>
+                <li><a href="#">Profile</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
