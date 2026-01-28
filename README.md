@@ -1,64 +1,73 @@
-# RetroQuest
-RetroQuest 🎮
-A responsive and accessible Gamer's Progress Tracker web app with a vibrant neon retro style. Track your favorite games, monitor your XP, levels, and badges, and enjoy smooth glowing animations — all built with HTML, CSS, and JavaScript.
+# RetroQuest – Gamer’s Progress Tracker
 
-Features
-Add and manage your game list with images and links
+🔗 **Live Demo:** https://codebreaker8609.github.io/RetroQuest/
 
-Mark games as completed and track progress dynamically
+RetroQuest is a responsive, accessible web app that lets you track your favorite games, XP, levels, and badges with a vibrant neon retro style. Built with HTML, CSS, and JavaScript, the app demonstrates dynamic UI updates, conditionals, and user interaction.
 
-XP, level, badges, and hours played update in real-time
+---
 
-Special glowing "Elite Gamer" badge unlocks when XP > 100
+## ✨ Features
 
-Responsive design for mobile and desktop
+- Add and manage your game list with title, hours played, and progress  
+- Mark games as completed and update stats dynamically  
+- XP, level, and badge counters update in real time  
+- “Elite Gamer” badge unlocks when XP exceeds a threshold  
+- Fully responsive design for mobile and desktop  
+- Accessibility features, including ARIA labels and keyboard navigation  
+- Neon RGB glowing text and animated badges for visual flair  
 
-Accessibility features with ARIA labels and keyboard navigation
+---
 
-Neon RGB glowing text and animated badges for a cool retro feel
+## 🖼️ Screenshots
 
-Demo
-Check out a live demo here (https://codebreaker8609.github.io/RetroQuest/)
+### Desktop View
+![RetroQuest Desktop](assets/images/retroquest-desktop.png)
 
-Installation & Usage
-Clone the repository:
+### Mobile View
+![RetroQuest Mobile](assets/images/retroquest-mobile.png)
 
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/retroquest.git
-Open index.html in your browser
+---
 
-Add games, mark completion, and watch your stats and badges update!
+## 🛠️ Tech Stack
 
-How It Works
-Uses localStorage to save your games and profile locally
+- **HTML5** (semantic markup)  
+- **CSS3** (layout, animations, visual effects)  
+- **JavaScript** (ES6+, DOM manipulation & event handling)
 
-JavaScript conditionals update UI elements based on XP and game completion
+---
 
-Modular code structure separates concerns for easier maintenance
+## 🚀 Local Preview
 
-Technologies Used
-HTML5
+To run locally:
 
-CSS3 (with animations and responsive design)
+```bash
+git clone https://github.com/CodeBreaker8609/RetroQuest.git
+Open index.html in your browser to launch the app.
 
-JavaScript (ES6+, DOM manipulation, event handling, conditionals)
+♿ Accessibility
+ARIA labels for interactive UI elements
 
-Future Enhancements
-User authentication and cloud save
+Keyboard navigation for interactive components
 
-Advanced filtering and search
+Sufficient color contrast for readability
 
-More badge types and achievements
+📚 What I Learned
+DOM manipulation and dynamic UI updates with JavaScript
 
-Integration with gaming APIs
+Using conditionals to trigger visual and data changes
 
-Contributing
-Contributions are welcome! Feel free to open issues or submit pull requests.
+Building an interactive application without frameworks
 
-License
-MIT License © 2025 Raevaun Arnum
+Structuring responsive layouts with modern CSS
 
-Contact
-Created by Raevaun Arnum — (https://www.linkedin.com/in/raevaun-arnum-7042a980/) | CodeBreaker8609
+🚧 Future Improvements
+Add localStorage so game data persists between sessions
+
+Add filters to sort games (by status or hours played)
+
+Enhance badge animations and visual effects
+
+Implement a backend (Node.js / Express) for user accounts
+
+📄 License
+MIT License
