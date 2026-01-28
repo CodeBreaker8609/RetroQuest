@@ -35,7 +35,7 @@ RetroQuest is a responsive, accessible web app that lets you track your favorite
 - **JavaScript** (ES6+, DOM manipulation & event handling)
 
 ---
-♿ Accessibility
+## ♿ Accessibility
 
 ARIA labels for interactive UI elements
 
@@ -43,7 +43,7 @@ Keyboard navigation for interactive components
 
 Sufficient color contrast for readability
 
-📚 What I Learned
+## 📚 What I Learned
 
 DOM manipulation and dynamic UI updates with JavaScript
 
@@ -53,7 +53,7 @@ Building an interactive application without frameworks
 
 Structuring responsive layouts with modern CSS
 
-🚧 Future Improvements
+## 🚧 Future Improvements
 
 Add localStorage so game data persists between sessions
 
