@@ -72,5 +72,5 @@ git clone https://github.com/CodeBreaker8609/RetroQuest.git
 Open index.html in your browser to launch the app.
 
 
-📄 License
+## 📄 License
 MIT License
