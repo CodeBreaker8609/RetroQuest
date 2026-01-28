@@ -2,7 +2,7 @@
 
 🔗 **Live Demo:** https://codebreaker8609.github.io/RetroQuest/
 
-RetroQuest is a responsive, accessible web app that lets you track your favorite games, XP, levels, and badges with a vibrant neon retro style. Built with HTML, CSS, and JavaScript, the app demonstrates dynamic UI updates, conditionals, and user interaction.
+RetroQuest is a responsive, accessible web app that lets you track your favorite games, XP, levels, and badges with a vibrant neon retro style. Built with HTML, CSS, and JavaScript, the app demonstrates dynamic UI updates, conditionals, and interactive game management.
 
 ---
 
@@ -13,7 +13,7 @@ RetroQuest is a responsive, accessible web app that lets you track your favorite
 - XP, level, and badge counters update in real time  
 - “Elite Gamer” badge unlocks when XP exceeds a threshold  
 - Fully responsive design for mobile and desktop  
-- Accessibility features, including ARIA labels and keyboard navigation  
+- Accessibility features including ARIA labels and keyboard navigation  
 - Neon RGB glowing text and animated badges for visual flair  
 
 ---
@@ -31,7 +31,7 @@ RetroQuest is a responsive, accessible web app that lets you track your favorite
 ## 🛠️ Tech Stack
 
 - **HTML5** (semantic markup)  
-- **CSS3** (layout, animations, visual effects)  
+- **CSS3** (layout & animations)  
 - **JavaScript** (ES6+, DOM manipulation & event handling)
 
 ---
