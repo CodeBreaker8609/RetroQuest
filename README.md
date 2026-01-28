@@ -35,16 +35,8 @@ RetroQuest is a responsive, accessible web app that lets you track your favorite
 - **JavaScript** (ES6+, DOM manipulation & event handling)
 
 ---
-
-## 🚀 Local Preview
-
-To run locally:
-
-```bash
-git clone https://github.com/CodeBreaker8609/RetroQuest.git
-Open index.html in your browser to launch the app.
-
 ♿ Accessibility
+
 ARIA labels for interactive UI elements
 
 Keyboard navigation for interactive components
@@ -52,6 +44,7 @@ Keyboard navigation for interactive components
 Sufficient color contrast for readability
 
 📚 What I Learned
+
 DOM manipulation and dynamic UI updates with JavaScript
 
 Using conditionals to trigger visual and data changes
@@ -61,6 +54,7 @@ Building an interactive application without frameworks
 Structuring responsive layouts with modern CSS
 
 🚧 Future Improvements
+
 Add localStorage so game data persists between sessions
 
 Add filters to sort games (by status or hours played)
@@ -68,6 +62,15 @@ Add filters to sort games (by status or hours played)
 Enhance badge animations and visual effects
 
 Implement a backend (Node.js / Express) for user accounts
+
+## 🚀 Local Preview
+
+To run locally:
+
+```bash
+git clone https://github.com/CodeBreaker8609/RetroQuest.git
+Open index.html in your browser to launch the app.
+
 
 📄 License
 MIT License
