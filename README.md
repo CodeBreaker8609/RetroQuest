@@ -21,7 +21,7 @@ RetroQuest is a responsive, accessible web app that lets you track your favorite
 ## 🖼️ Screenshots
 
 ### Desktop View
-![RetroQuest Desktop](assets/images/retroquest-desktop.png)
+![RetroQuest Desktop](retroquest-desktop-screenshot.png)
 
 ### Mobile View
 ![RetroQuest Mobile](assets/images/retroquest-mobile.png)
