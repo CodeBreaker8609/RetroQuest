@@ -67,7 +67,7 @@ Implement a backend (Node.js / Express) for user accounts
 
 To run locally:
 
-```bash
+## ```bash
 git clone https://github.com/CodeBreaker8609/RetroQuest.git
 Open index.html in your browser to launch the app.
 
